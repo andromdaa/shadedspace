@@ -1,0 +1,10 @@
+name: ShadedSpace
+version: 1.0
+main: io.github.andromda.shadedspace.ShadedSpace
+api-version: 1.16
+commands:
+  ss:
+    description: Base command for Shaded Space
+    permission: ss.base
+
+
