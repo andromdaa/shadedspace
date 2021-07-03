@@ -7,21 +7,21 @@
       "minecraft:zombie": 1
     },
     "minecraft:custom": {
-      "minecraft:time_since_rest": 2188599,
+      "minecraft:time_since_rest": 2393546,
       "minecraft:damage_dealt": 193,
-      "minecraft:play_one_minute": 2202505,
-      "minecraft:crouch_one_cm": 14,
+      "minecraft:play_one_minute": 2407452,
+      "minecraft:crouch_one_cm": 23,
       "minecraft:damage_taken": 345,
-      "minecraft:leave_game": 5,
+      "minecraft:leave_game": 11,
       "minecraft:sprint_one_cm": 726,
-      "minecraft:time_since_death": 1898559,
-      "minecraft:walk_one_cm": 6374,
+      "minecraft:time_since_death": 2103506,
+      "minecraft:walk_one_cm": 9635,
       "minecraft:deaths": 1,
-      "minecraft:sneak_time": 7,
+      "minecraft:sneak_time": 23,
       "minecraft:mob_kills": 1,
       "minecraft:fall_one_cm": 418,
-      "minecraft:fly_one_cm": 9558,
-      "minecraft:jump": 25
+      "minecraft:fly_one_cm": 9700,
+      "minecraft:jump": 26
     },
     "minecraft:killed_by": {
       "minecraft:zombie": 1

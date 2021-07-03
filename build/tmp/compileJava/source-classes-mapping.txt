@@ -1,5 +1,5 @@
-io/github/andromda/shadedspace/ShadedSpace.java
- io.github.andromda.shadedspace.ShadedSpace
+io/github/andromda/shadedspace/SubCommands/Teleport.java
+ io.github.andromda.shadedspace.SubCommands.Teleport
 io/github/andromda/shadedspace/Interfaces/SubCommand.java
  io.github.andromda.shadedspace.Interfaces.SubCommand
 io/github/andromda/shadedspace/SubCommands/Gamemode.java
@@ -8,5 +8,7 @@ io/github/andromda/shadedspace/SubCommands/Inv.java
  io.github.andromda.shadedspace.SubCommands.Inv
 io/github/andromda/shadedspace/BaseCommand/ShadedSpaceBase.java
  io.github.andromda.shadedspace.BaseCommand.ShadedSpaceBase
-io/github/andromda/shadedspace/SubCommands/Teleport.java
- io.github.andromda.shadedspace.SubCommands.Teleport
+io/github/andromda/shadedspace/ShadedSpace.java
+ io.github.andromda.shadedspace.ShadedSpace
+io/github/andromda/shadedspace/SubCommands/Warp.java
+ io.github.andromda.shadedspace.SubCommands.Warp
