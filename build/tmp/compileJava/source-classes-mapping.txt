@@ -8,7 +8,11 @@ io/github/andromda/shadedspace/SubCommands/Inv.java
  io.github.andromda.shadedspace.SubCommands.Inv
 io/github/andromda/shadedspace/BaseCommand/ShadedSpaceBase.java
  io.github.andromda.shadedspace.BaseCommand.ShadedSpaceBase
-io/github/andromda/shadedspace/ShadedSpace.java
- io.github.andromda.shadedspace.ShadedSpace
 io/github/andromda/shadedspace/SubCommands/Warp.java
  io.github.andromda.shadedspace.SubCommands.Warp
+io/github/andromda/shadedspace/ShadedSpace.java
+ io.github.andromda.shadedspace.ShadedSpace
+io/github/andromda/shadedspace/SubCommands/Time.java
+ io.github.andromda.shadedspace.SubCommands.Time
+io/github/andromda/shadedspace/SubCommands/Home.java
+ io.github.andromda.shadedspace.SubCommands.Home
