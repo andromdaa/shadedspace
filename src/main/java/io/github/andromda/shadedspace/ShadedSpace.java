@@ -1,7 +1,6 @@
 package io.github.andromda.shadedspace;
 
-import io.github.andromda.shadedspace.BaseCommand.ShadedSpaceBase;
-import io.github.andromda.shadedspace.SubCommands.*;
+import io.github.andromda.shadedspace.basic.*;
 import org.bukkit.configuration.InvalidConfigurationException;
 import org.bukkit.configuration.file.FileConfiguration;
 import org.bukkit.configuration.file.YamlConfiguration;

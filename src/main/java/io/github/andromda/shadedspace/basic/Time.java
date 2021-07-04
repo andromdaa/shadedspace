@@ -1,6 +1,6 @@
-package io.github.andromda.shadedspace.SubCommands;
+package io.github.andromda.shadedspace.basic;
 
-import io.github.andromda.shadedspace.Interfaces.SubCommand;
+import io.github.andromda.shadedspace.SubCommand;
 import org.bukkit.World;
 import org.bukkit.command.Command;
 import org.bukkit.entity.Player;

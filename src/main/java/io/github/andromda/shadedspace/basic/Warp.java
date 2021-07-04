@@ -1,6 +1,6 @@
-package io.github.andromda.shadedspace.SubCommands;
+package io.github.andromda.shadedspace.basic;
 
-import io.github.andromda.shadedspace.Interfaces.SubCommand;
+import io.github.andromda.shadedspace.SubCommand;
 import org.bukkit.ChatColor;
 import org.bukkit.Location;
 import org.bukkit.command.Command;
