@@ -100,7 +100,21 @@ public class Warp implements SubCommand, Listener {
     }
 
     private void setLocation(Player player, String name, String confirmationMessage) {
-        warps.set(name, player.getLocation());
+        Location location = player.getLocation();
+
+        String world = location.getWorld().getName();
+        double x, y, z, pitch, yaw;
+        x = location.getX();
+        y = location.getY();
+        z = location.getZ();
+        pitch = location.getPitch();
+        yaw = location.getYaw();
+        warps.set(name + ".world", world);
+        warps.set(name + ".x", x);
+        warps.set(name + ".y", y);
+        warps.set(name + ".z", z);
+        warps.set(name + ".pitch", pitch);
+        warps.set(name + ".yaw", yaw);
         saveWarps();
         player.sendMessage(ChatColor.RED + confirmationMessage);
     }

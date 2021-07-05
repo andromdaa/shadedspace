@@ -10,7 +10,7 @@ public class Time implements SubCommand {
     @Override
     public void onCommand(Player player, Command command, String[] args) {
         World world = player.getWorld();
-        switch (args[0]) {
+        switch (args[1]) {
             case "day":
                 setTime(player, world, 0L);
                 break;
