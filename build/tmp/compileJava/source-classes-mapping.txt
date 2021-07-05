@@ -1,18 +1,20 @@
-io/github/andromda/shadedspace/SubCommands/Teleport.java
- io.github.andromda.shadedspace.SubCommands.Teleport
-io/github/andromda/shadedspace/Interfaces/SubCommand.java
- io.github.andromda.shadedspace.Interfaces.SubCommand
-io/github/andromda/shadedspace/SubCommands/Gamemode.java
- io.github.andromda.shadedspace.SubCommands.Gamemode
-io/github/andromda/shadedspace/SubCommands/Inv.java
- io.github.andromda.shadedspace.SubCommands.Inv
-io/github/andromda/shadedspace/BaseCommand/ShadedSpaceBase.java
- io.github.andromda.shadedspace.BaseCommand.ShadedSpaceBase
-io/github/andromda/shadedspace/SubCommands/Warp.java
- io.github.andromda.shadedspace.SubCommands.Warp
+io/github/andromda/shadedspace/basic/Gamemode.java
+ io.github.andromda.shadedspace.basic.Gamemode
+io/github/andromda/shadedspace/basic/Teleport.java
+ io.github.andromda.shadedspace.basic.Teleport
+io/github/andromda/shadedspace/ShadedSpaceBase.java
+ io.github.andromda.shadedspace.ShadedSpaceBase
+io/github/andromda/shadedspace/basic/Fly.java
+ io.github.andromda.shadedspace.basic.Fly
+io/github/andromda/shadedspace/SubCommand.java
+ io.github.andromda.shadedspace.SubCommand
+io/github/andromda/shadedspace/basic/Inv.java
+ io.github.andromda.shadedspace.basic.Inv
+io/github/andromda/shadedspace/basic/Time.java
+ io.github.andromda.shadedspace.basic.Time
+io/github/andromda/shadedspace/basic/Warp.java
+ io.github.andromda.shadedspace.basic.Warp
 io/github/andromda/shadedspace/ShadedSpace.java
  io.github.andromda.shadedspace.ShadedSpace
-io/github/andromda/shadedspace/SubCommands/Time.java
- io.github.andromda.shadedspace.SubCommands.Time
-io/github/andromda/shadedspace/SubCommands/Home.java
- io.github.andromda.shadedspace.SubCommands.Home
+io/github/andromda/shadedspace/basic/Home.java
+ io.github.andromda.shadedspace.basic.Home
