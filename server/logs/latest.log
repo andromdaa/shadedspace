@@ -157,3 +157,19 @@
 [13:50:27] [Server thread/INFO]: [ShadedSpace] Enabling ShadedSpace v1.0
 [13:50:27] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
 [13:50:27] [Server thread/INFO]: Done (11.310s)! For help, type "help"
+[13:58:27] [Thread-6/INFO]: Stopping server
+[13:58:27] [Server console handler/ERROR]: Exception handling console input
+java.io.IOException: Bad file descriptor
+	at java.io.FileInputStream.readBytes(Native Method) ~[?:?]
+	at java.io.FileInputStream.read(FileInputStream.java:279) ~[?:?]
+	at java.io.BufferedInputStream.fill(BufferedInputStream.java:252) ~[?:?]
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:271) ~[?:?]
+	at org.bukkit.craftbukkit.libs.jline.internal.NonBlockingInputStream.read(NonBlockingInputStream.java:248) ~[spigot.jar:3096-Spigot-9fb885e-296df56]
+	at org.bukkit.craftbukkit.libs.jline.internal.InputStreamReader.read(InputStreamReader.java:261) ~[spigot.jar:3096-Spigot-9fb885e-296df56]
+	at org.bukkit.craftbukkit.libs.jline.internal.InputStreamReader.read(InputStreamReader.java:198) ~[spigot.jar:3096-Spigot-9fb885e-296df56]
+	at org.bukkit.craftbukkit.libs.jline.console.ConsoleReader.readCharacter(ConsoleReader.java:2145) ~[spigot.jar:3096-Spigot-9fb885e-296df56]
+	at org.bukkit.craftbukkit.libs.jline.console.ConsoleReader.readLineSimple(ConsoleReader.java:3183) ~[spigot.jar:3096-Spigot-9fb885e-296df56]
+	at org.bukkit.craftbukkit.libs.jline.console.ConsoleReader.readLine(ConsoleReader.java:2333) ~[spigot.jar:3096-Spigot-9fb885e-296df56]
+	at org.bukkit.craftbukkit.libs.jline.console.ConsoleReader.readLine(ConsoleReader.java:2269) ~[spigot.jar:3096-Spigot-9fb885e-296df56]
+	at org.bukkit.craftbukkit.libs.jline.console.ConsoleReader.readLine(ConsoleReader.java:2257) ~[spigot.jar:3096-Spigot-9fb885e-296df56]
+	at net.minecraft.server.v1_16_R3.DedicatedServer$1.run(DedicatedServer.java:122) [spigot.jar:3096-Spigot-9fb885e-296df56]
