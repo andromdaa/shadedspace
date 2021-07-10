@@ -8,10 +8,6 @@ import org.bukkit.event.Listener;
 import org.bukkit.event.world.ChunkLoadEvent;
 import org.bukkit.inventory.Inventory;
 import org.bukkit.inventory.ItemStack;
-import org.bukkit.inventory.meta.ItemMeta;
-
-import java.util.ArrayList;
-import java.util.List;
 
 public class NewChunk implements Listener {
 
@@ -25,18 +21,9 @@ public class NewChunk implements Listener {
                    Inventory inventory = chest.getBlockInventory();
 
                    ItemStack fragment = new ItemStack(Material.GOLD_NUGGET);
-                   ItemMeta meta = fragment.getItemMeta();
-
-                   List<String> lore;
-                   if(meta != null) lore = meta.getLore();
-                   else lore = new ArrayList<>();
-
-                   lore.add("This is a test");
-
-                   meta.setLore(lore);
-                   fragment.setItemMeta(meta);
-
                    inventory.addItem(fragment);
+
+                   System.out.println(blockState.getX() + " " + blockState.getY() + " " + blockState.getZ());
                }
            }
         }

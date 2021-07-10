@@ -43,7 +43,10 @@ public class Warp implements SubCommand, Listener {
     @Override
     public void onCommand(Player player, Command command, String[] args) {
         this.player = player;
-        if (args.length == 2) {
+        if(args.length == 1 || args.length == 0) {
+            player.sendMessage("Incorrect format");
+        }
+        else if (args.length == 2) {
             if (args[1].equalsIgnoreCase("list")) {
                 Set<String> warpList = warps.getKeys(false);
                 if (warpList.isEmpty()) player.sendMessage("There are currently no warps");
